@@ -11,20 +11,20 @@ import za.co.mmagon.jwebswing.base.angular.directives.AngularDirectiveBase;
  */
 class AngularAutoFocusDirective extends AngularDirectiveBase
 {
-
-    private static final long serialVersionUID = 1L;
-
-    /*
-     * Constructs a new AngularAutoFocusDirective
-     */
-    public AngularAutoFocusDirective()
-    {
-        super("AngularAutoFocus");
-    }
-
-    @Override
-    public String renderFunction()
-    {
-        return FileTemplates.getFileTemplate(AngularAutoFocusDirective.class, "autoFocus.min").toString();
-    }
+	
+	private static final long serialVersionUID = 1L;
+	
+	/*
+	 * Constructs a new AngularAutoFocusDirective
+	 */
+	public AngularAutoFocusDirective()
+	{
+		super("AngularAutoFocus");
+	}
+	
+	@Override
+	public String renderFunction()
+	{
+		return FileTemplates.getFileTemplate(AngularAutoFocusDirective.class, "autoFocus.min").toString();
+	}
 }
