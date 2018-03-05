@@ -9,7 +9,8 @@ import za.co.mmagon.jwebswing.base.angular.directives.AngularDirectiveBase;
  * @author Marc Magon
  * @since 30 May 2017
  */
-class AngularAutoFocusDirective extends AngularDirectiveBase
+public class AngularAutoFocusDirective
+		extends AngularDirectiveBase
 {
 
 	private static final long serialVersionUID = 1L;
@@ -25,6 +26,7 @@ class AngularAutoFocusDirective extends AngularDirectiveBase
 	@Override
 	public String renderFunction()
 	{
-		return FileTemplates.getFileTemplate(AngularAutoFocusDirective.class, "autoFocus", "autoFocus").toString();
+		return FileTemplates.getFileTemplate(AngularAutoFocusDirective.class, "autoFocus", "autoFocus.min")
+		                    .toString();
 	}
 }
