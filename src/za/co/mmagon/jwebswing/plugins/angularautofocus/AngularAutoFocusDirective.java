@@ -26,7 +26,7 @@ public class AngularAutoFocusDirective
 	@Override
 	public String renderFunction()
 	{
-		return FileTemplates.getFileTemplate(AngularAutoFocusDirective.class, "autoFocus", "autoFocus.min")
+		return FileTemplates.getFileTemplate(AngularAutoFocusDirective.class, "autoFocus", "autoFocus.min.js")
 		                    .toString();
 	}
 }
