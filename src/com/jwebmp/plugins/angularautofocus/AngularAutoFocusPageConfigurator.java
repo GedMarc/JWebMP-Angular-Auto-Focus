@@ -1,11 +1,11 @@
-package za.co.mmagon.jwebswing.plugins.angularautofocus;
+package com.jwebmp.plugins.angularautofocus;
 
-import za.co.mmagon.jwebswing.Page;
-import za.co.mmagon.jwebswing.PageConfigurator;
-import za.co.mmagon.jwebswing.base.angular.AngularPageConfigurator;
-import za.co.mmagon.jwebswing.plugins.ComponentInformation;
-import za.co.mmagon.jwebswing.plugins.PluginInformation;
-import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
+import com.jwebmp.Page;
+import com.jwebmp.PageConfigurator;
+import com.jwebmp.base.angular.AngularPageConfigurator;
+import com.jwebmp.plugins.ComponentInformation;
+import com.jwebmp.plugins.PluginInformation;
+import com.jwebmp.plugins.jquery.JQueryPageConfigurator;
 
 /**
  * Allows for elements to have an auto expand by adding a class
