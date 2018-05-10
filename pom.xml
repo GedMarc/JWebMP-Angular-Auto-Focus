@@ -13,13 +13,20 @@
 
 
     <repositories>
-
         <repository>
-            <id>jwebswing-snapshot</id>
-            <name>JWebSwingArtifactory-snapshots</name>
-            <url>https://jwebswing.com/artifactory/libs-snapshot</url>
+            <id>jwebmp-snapshot</id>
+            <name>JWebMPArtifactory-snapshots</name>
+            <url>https://jwebmp.com/artifactory/libs-snapshot</url>
         </repository>
     </repositories>
+
+    <licenses>
+        <license>
+            <name>General Public License, Version 3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,7 +37,8 @@
         <maven.javadoc.version>2.10.4</maven.javadoc.version>
         <maven.source.version>2.1.2</maven.source.version>
         <maven.resources.version>3.0.2</maven.resources.version>
-        <netbeans.hint.license>gpl30</netbeans.hint.license>         <license.dir>${basedir}</license.dir>
+        <netbeans.hint.license>gpl30</netbeans.hint.license>
+        <license.dir>${basedir}</license.dir>
 
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -144,13 +152,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>snapshot</id>
-            <name>JWebSwingArtifactory-snapshots</name>
-            <url>https://jwebswing.com/artifactory/libs-snapshot-local</url>
+            <name>JWebMPArtifactory-snapshots</name>
+            <url>https://jwebmp.com/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
         <repository>
             <id>central</id>
-            <name>JWebSwingArtifactory-releases</name>
-            <url>https://jwebswing.com/artifactory/libs-release-local</url>
+            <name>JWebMPArtifactory-releases</name>
+            <url>https://jwebmp.com/artifactory/libs-release-local</url>
         </repository>
     </distributionManagement>
     <organization>
@@ -159,7 +167,7 @@
     </organization>
 
     <scm>
-        <url>https://github.com/GedMarc?tab=repositories</url>
+        <url>https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus</url>
         <developerConnection>Marc Magon</developerConnection>
     </scm>
 
@@ -170,8 +178,9 @@
 
     <ciManagement>
         <system>TeamCity</system>
-        <url>http://jwebmp.com/teamcity</url>
+        <url>https://jwebmp.com/teamcity/viewType.html?buildTypeId=JWebSwingPlugins_BuildAngularAutoFocus</url>
     </ciManagement>
+
     <reporting>
         <plugins>
             <plugin>
