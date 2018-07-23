@@ -1,11 +1,11 @@
 package com.jwebmp.plugins.angularautofocus;
 
 import com.jwebmp.core.Page;
-import com.jwebmp.core.PageConfigurator;
 import com.jwebmp.core.base.angular.AngularPageConfigurator;
 import com.jwebmp.core.plugins.ComponentInformation;
 import com.jwebmp.core.plugins.PluginInformation;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
+import com.jwebmp.core.services.IPageConfigurator;
 
 /**
  * Allows for elements to have an auto expand by adding a class
@@ -30,11 +30,8 @@ import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 		description = "Auto Focus Components with Angular",
 		url = "https://www.akveo.com/products.html")
 public class AngularAutoFocusPageConfigurator
-		extends PageConfigurator
+		implements IPageConfigurator
 {
-
-	private static final long serialVersionUID = 1L;
-
 	/*
 	 * Constructs a new AngularAutoFocusPageConfigurator
 	 */

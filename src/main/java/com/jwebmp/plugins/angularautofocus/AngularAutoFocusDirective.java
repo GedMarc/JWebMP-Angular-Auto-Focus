@@ -19,6 +19,7 @@ package com.jwebmp.plugins.angularautofocus;
 
 import com.jwebmp.core.FileTemplates;
 import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
+import com.jwebmp.core.base.angular.services.IAngularDirective;
 
 /**
  * The Angular Auto Focus Directive that is applied
@@ -28,6 +29,7 @@ import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
  */
 public class AngularAutoFocusDirective
 		extends AngularDirectiveBase
+		implements IAngularDirective<AngularAutoFocusDirective>
 {
 
 	private static final long serialVersionUID = 1L;
