@@ -22,8 +22,8 @@ import javax.validation.constraints.NotNull;
 		pluginCategories = "angular,focus,ui,web ui, framework",
 		pluginSubtitle = "Auto Focus Components with Angular",
 		pluginSourceUrl = "https://www.akveo.com/products.html",
-		pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus/wiki",
-		pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus",
+		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Angular-Auto-Focus/wiki",
+		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Angular-Auto-Focus",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
@@ -32,7 +32,7 @@ import javax.validation.constraints.NotNull;
 		description = "Auto Focus Components with Angular",
 		url = "https://www.akveo.com/products.html")
 public class AngularAutoFocusPageConfigurator
-		implements IPageConfigurator
+		implements IPageConfigurator<AngularAutoFocusPageConfigurator>
 {
 	/**
 	 * If this configurator is enabled
