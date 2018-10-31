@@ -43,28 +43,6 @@
             <classifier>${jwebmp.runtime.classifier}</classifier>
             <!--<optional>true</optional>-->
         </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>guiced-injection</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
-            <!--<optional>true</optional>-->
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>jwebmp-log-master</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
-            <!--<optional>true</optional>-->
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>jwebmp-interception</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
-            <!--<optional>true</optional>-->
-        </dependency>
-
     </dependencies>
     <scm>
         <url>https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus</url>
