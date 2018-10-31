@@ -32,7 +32,6 @@ public class AngularAutoFocusDirective
 		implements IAngularDirective<AngularAutoFocusDirective>
 {
 
-	private static final long serialVersionUID = 1L;
 
 	/*
 	 * Constructs a new AngularAutoFocusDirective
