@@ -1,9 +1,3 @@
-import com.jwebmp.core.base.angular.services.IAngularDirective;
-import com.jwebmp.guicedinjection.interfaces.IGuiceScanJarExclusions;
-import com.jwebmp.guicedinjection.interfaces.IGuiceScanModuleExclusions;
-import com.jwebmp.plugins.angularautofocus.AngularAutoFocusDirective;
-import com.jwebmp.plugins.angularautofocus.implementations.AngularAutoFocusExclusionsModule;
-
 module com.jwebmp.plugins.angularautofocus {
 	exports com.jwebmp.plugins.angularautofocus;
 
@@ -13,9 +7,9 @@ module com.jwebmp.plugins.angularautofocus {
 	requires com.jwebmp.core.angularjs;
 
 	provides com.jwebmp.core.services.IPageConfigurator with com.jwebmp.plugins.angularautofocus.AngularAutoFocusPageConfigurator;
-	provides IAngularDirective with AngularAutoFocusDirective;
+	provides com.jwebmp.core.base.angular.services.IAngularDirective with com.jwebmp.plugins.angularautofocus.AngularAutoFocusDirective;
 
-	provides IGuiceScanJarExclusions with AngularAutoFocusExclusionsModule;
-	provides IGuiceScanModuleExclusions with AngularAutoFocusExclusionsModule;
+	provides com.jwebmp.guicedinjection.interfaces.IGuiceScanJarExclusions with com.jwebmp.plugins.angularautofocus.implementations.AngularAutoFocusExclusionsModule;
+	provides com.jwebmp.guicedinjection.interfaces.IGuiceScanModuleExclusions with com.jwebmp.plugins.angularautofocus.implementations.AngularAutoFocusExclusionsModule;
 
 }
