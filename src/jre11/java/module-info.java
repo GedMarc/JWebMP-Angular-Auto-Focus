@@ -9,7 +9,6 @@ module com.jwebmp.plugins.angularautofocus {
 	provides com.jwebmp.core.services.IPageConfigurator with com.jwebmp.plugins.angularautofocus.AngularAutoFocusPageConfigurator;
 	provides com.jwebmp.core.base.angular.services.IAngularDirective with com.jwebmp.plugins.angularautofocus.AngularAutoFocusDirective;
 
-	provides com.guicedee.guicedinjection.interfaces.IGuiceScanJarExclusions with com.jwebmp.plugins.angularautofocus.implementations.AngularAutoFocusExclusionsModule;
 	provides com.guicedee.guicedinjection.interfaces.IGuiceScanModuleExclusions with com.jwebmp.plugins.angularautofocus.implementations.AngularAutoFocusExclusionsModule;
 
 }

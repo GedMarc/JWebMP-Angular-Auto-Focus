@@ -1,6 +1,5 @@
 package com.jwebmp.plugins.angularautofocus.implementations;
 
-import com.guicedee.guicedinjection.interfaces.IGuiceScanJarExclusions;
 import com.guicedee.guicedinjection.interfaces.IGuiceScanModuleExclusions;
 
 import javax.validation.constraints.NotNull;
@@ -8,18 +7,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class AngularAutoFocusExclusionsModule
-		implements IGuiceScanModuleExclusions<AngularAutoFocusExclusionsModule>,
-				           IGuiceScanJarExclusions<AngularAutoFocusExclusionsModule>
+		implements IGuiceScanModuleExclusions<AngularAutoFocusExclusionsModule>
 {
-
-	@Override
-	public @NotNull Set<String> excludeJars()
-	{
-		Set<String> strings = new HashSet<>();
-		strings.add("jwebmp-angular-auto-focus-*");
-		return strings;
-	}
-
 	@Override
 	public @NotNull Set<String> excludeModules()
 	{
