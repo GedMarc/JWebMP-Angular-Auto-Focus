@@ -2,7 +2,7 @@ module com.jwebmp.plugins.angularautofocus {
 	exports com.jwebmp.plugins.angularautofocus;
 
 	requires com.jwebmp.core;
-	requires java.validation;
+	requires jakarta.validation;
 	requires com.guicedee.guicedinjection;
 	requires com.jwebmp.core.angularjs;
 
