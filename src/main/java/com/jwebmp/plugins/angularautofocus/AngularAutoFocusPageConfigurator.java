@@ -15,9 +15,9 @@ import jakarta.validation.constraints.NotNull;
  * @author GedMarc
  * @since 16 Jun 2017
  */
-@PluginInformation(pluginName = "Angular Auto Focus",
+@PluginInformation(pluginName = "Auto Focus",
 		pluginDescription = "Auto Focus Components with Angular",
-		pluginUniqueName = "jwebswing-angular-auto-focus",
+		pluginUniqueName = "angular-auto-focus",
 		pluginVersion = "1.0.0",
 		pluginCategories = "angular,focus,ui,web ui, framework",
 		pluginSubtitle = "Auto Focus Components with Angular",
