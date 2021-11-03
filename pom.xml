@@ -11,7 +11,7 @@
 
     <artifactId>jwebmp-angular-auto-focus</artifactId>
     <packaging>jar</packaging>
-
+    <version>0.0.0_0-SNAPSHOT</version>
     <name>Angular Auto Focus Addon</name>
     <description>The JWebSwing implementation for Angular Auto Focus</description>
     <url>https://github.com/GedMarc/Angular-Auto-Focus</url>
